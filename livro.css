@@ -1,3 +1,33 @@
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Ajuste do tamanho da fonte */
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    /* Ajuste do tamanho da imagem */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Ajuste do espaçamento */
+    body, div {
+        padding: 10px;
+    }
+    /* Centraliza o texto */
+    div {
+        text-align: justify;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -34,35 +64,5 @@ a {
 img{
     width:190px;
     
-}
-
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 600px) {
-    /* Ajuste do tamanho da fonte */
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    p {
-        font-size: 16px;
-    }
-    /* Ajuste do tamanho da imagem */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    /* Ajuste do espaçamento */
-    body, div {
-        padding: 10px;
-    }
-    /* Centraliza o texto */
-    div {
-        text-align: justify;
-    }
 }
 
